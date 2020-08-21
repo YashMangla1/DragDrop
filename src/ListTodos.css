@@ -1,13 +1,12 @@
 .list{
-    color: #fff;
-    width: 300px;
     background-color: #04060B ;
     min-height: 48px;
-    margin: 20px auto;
+    margin: 20px 1em;
     border-radius: 7px;
 }
 
 .list p{
+    color: #fff;
     padding: 12px;
     position: relative;
 }
@@ -16,10 +15,30 @@
     position: absolute;
     right: 8px;
     cursor: pointer;
+}
 
+
+
+.rrow{ display: flex; flex-flow: row; }
+.ccol-md-7{ width: 70%; }
+.ccol-md-3{ width: 30%; }
+.text{ margin:0; color: #fff; font-size: 18px; }
+.icons{ }
+.edit_field{
+    border: none;
+    border-radius: 7px 0 0 7px;
+    padding: 0 1em;
+    font-size: 18px;
+}
+.submit_edit{
+    background: transparent;
+    border: none;
+    width: 100%;
+    border-radius: 0 7px 7px 0;
 }
 
 .faIcons{
-    margin: 0 5px;
-    font-size: 17px;
+    color: #fff;
+    margin: 8px;
+    font-size: 27px;
 }

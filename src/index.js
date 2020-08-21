@@ -6,16 +6,6 @@ import * as serviceWorker from './serviceWorker';
 import interactionPlugin, { Draggable } from '@fullcalendar/interaction'
 import { INITIAL_EVENTS } from './event-utils'
 
-var containerEl = document.getElementById('left-container');
-
-new Draggable(containerEl, {
-  itemSelector: '.fc-event',
-  eventData: function (eventEl) {
-    return {
-      title: eventEl.innerText
-    }
-  }
-});
 
 ReactDOM.render(
   <React.StrictMode>
